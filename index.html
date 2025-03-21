@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Microsoft – AI, Cloud, Productivity, Computing, Gaming &amp; Apps</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="relative">
+  
+
+  <nav class="navbar flex items-center justify-between p-3 bg-gray-100 ">
+ <!-- left section -->
+  <div class="leftnav flex items-center gap-4">
+    <div class="menu  cursor-pointer md:hidden" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars text-xl"></i>
+    </div>
+
+  <!-- search icon -->
+    <div class="searchicon md:hidden">
+        <i class="fa-solid fa-magnifying-glass md:ml-auto"></i>
+    </div>
+ </div>
+
+ <!-- logo+features -->
+    <div class="mslogo flex items-center gap-4 size-1/6 md:mr-auto  " >
+      <img src="mslogo.png" class="" alt="">
+
+      <div class="features hidden md:flex  gap-3">
+        <div class="fitem">Microsoft365</div>
+        <div class="fitem">Teams</div>
+        <div class="fitem">Copilot</div>
+        <div class="fitem">Windows</div>
+        <div class="fitem">SurfaceXboxSupport</div>
+      </div>
+
+    </div>
+
+    <!-- right section -->
+    <div class="right flex items-center gap-4">
+        <div class="searchicon hidden md:flex"> <!-- Appears in md -->
+          <i class="fa-solid fa-magnifying-glass text-xl"></i>
+        </div>
+  
+<div class="cart">
+    <i class="fa-solid fa-cart-shopping"></i>
+</div>
+<div class="account">
+    <i class="fa-solid fa-user-plus"></i>
+</div>
+
+<div id="sidebar" class="fixed top-0 left-0 h-full w-64 bg-gray-800 text-white transform -translate-x-full transition-transform duration-300 ease-in-out md:hidden">  <button onclick="toggleSidebar()" class="absolute top-4 right-4">
+    <i class="fa-solid fa-bars text-xl"></i>
+   </button>  
+   <div class="mt-16 space-y-4 px-6">
+    <div class="fitem">Microsoft 365</div>
+    <div class="fitem">Teams</div>
+    <div class="fitem">Copilot</div>
+    <div class="fitem">Windows</div>
+    <div class="fitem">Surface</div>
+    <div class="fitem">Xbox</div>
+    <div class="fitem">Support</div>
+  </div>
+</div>
+</div>
+  </nav>
+   <!-- another section hero page -->
+    <div class="heropage flex flex-col-reverse md:flex-row  bg-[#bde0fe]  ">
+      <div class="left sm:mt-0   md:absolute md:ml-5  md:h-60 md:w-96 md:mt-20 md:bg-[#bde0fe] md:shadow-lg md:shadow-gray-800 p-6 m-4 ">
+        <h1 class="text-4xl mb-2">Meet Surface Pro</h1>
+        <div>This laptop's unrivalled flexibility and AI features like Live Captions and Cocreator, enable you to do more than you ever imagined.
+        </div>
+        <button class="bg-blue-500 text-white p-4 md:mt-auto mt-3 w-32 text-lg shadow-lg shadow-gray-500 mx-auto block">Learn More</button>
+      </div>
+      <div class="right  h-auto ">
+       <img class="w-full   object-cover " src="microsoft hero page2.avif" alt="">
+      </div>
+    </div>
+
+
+
+
+
+    <div class="symbologo flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10 mt-5">
+      <div class="flex flex-col items-center text-center">
+        <img src="MS-black-logo.svg" class="h-10 w-10 mb-2" alt="">
+        <a href="#" class="text-blue-600 md:text-blue-600">Choose your Microsoft365</a>
+      </div>
+    
+      <div class="flex flex-col items-center text-center">
+        <img src="shop-xbox.svg" class="h-10 w-10 mb-2" alt="">
+        <a href="#" class="text-blue-600 md:text-blue-600">Shop Xbox</a>
+      </div>
+    
+      <div class="flex flex-col items-center text-center">
+        <img src="MS-black-logo.svg" class="h-10 w-10 mb-2" alt="">
+        <a href="#" class="text-blue-600 md:text-blue-600">Windows</a>
+      </div>
+    
+      <div class="flex flex-col items-center text-center">
+        <img src="mssurface.svg" class="h-10 w-10 mb-2" alt="">
+        <a href="#" class="text-blue-600 md:text-blue-600">Explore Surface Device</a>
+      </div>
+    </div>
+
+
+    <!-- here the main 4 dives are -->
+     <div class="container p-4 w-screen max-w-full md:mt-4 md:flex md:flex-row md:justify-around md:gap-10 md:h-1/2 ">
+      <div class="box1 sm:h-[450px] shadow-lg h-[450px] shadow-black mb-3">
+        <img src="img1.avif" class="w-full " alt="">
+        <h1 class="font-bold text-2xl ml-2 md:w-auto">Surface Laptop, Copilot+ PC</h1>
+        <p class="ml-2">Unlock AI features like Live Captions and Cocreator with this exceptionally powerful laptop.</p>
+        <button class="bg-blue-500  text-white p-4 md:mb-2  mt-8 w-32 text-lg shadow-lg shadow-gray-500 mx-auto block">Learn More</button>
+      </div>
+
+      <div class="box1 sm:h-[450px] shadow-lg h-[450px] shadow-black mb-3">
+        <img src="img2.webp" class="w-full " alt="">
+        <h1 class="font-bold text-2xl ml-2 md:w-auto">X-box series s</h1>
+        <p class="ml-2">Unlock AI features like Live Captions and Cocreator with this exceptionally powerful laptop.</p>
+        <button class="bg-blue-500  text-white p-4 md:mb-2  mt-8 w-32 text-lg shadow-lg shadow-gray-500 mx-auto block">Learn More</button>
+      </div>
+
+      <div class="box1 sm:h-[450px] shadow-lg h-[450px] shadow-black mb-3">
+        <img src="img3.avif" class="w-full " alt="">
+        <h1 class="font-bold text-2xl ml-2 md:w-auto">X-box series s</h1>
+        <p class="ml-2">Unlock AI features like Live Captions and Cocreator with this exceptionally powerful laptop.</p>
+        <button class="bg-blue-500  text-white p-4 md:mb-2  mt-8 w-32 text-lg shadow-lg shadow-gray-500 mx-auto block">Learn More</button>
+      </div>
+
+      <div class="box1 sm:h-[450px] shadow-lg h-[450px] shadow-black mb-3">
+        <img src="img4.avif" class="w-full " alt="">
+        <h1 class="font-bold text-2xl ml-2 md:w-auto">Surface Laptop, Copilot+ PC</h1>
+        <p class="ml-2">Unlock AI features like Live Captions and Cocreator with this exceptionally powerful laptop.</p>
+        <button class="bg-blue-500  text-white p-4 md:mb-2  mt-8 w-32 text-lg shadow-lg shadow-gray-500 mx-auto block">Learn More</button>
+      </div>
+    </div>
+
+    <div class="highlighter">
+      <div class="highlightmsg w-60 h-60 sm:absolute ml-52 mt-48">
+        <h1 class="font-bold text-2xl text-white ml-2 md:w-auto">Game Pass </h1>
+        <p class="ml-2  text-white m-5 text-2xl">play the new games with more intensivly</p>
+        <button class="bg-blue-500  text-white p-4 text-lg ">JOIN NOW</button>
+      </div>
+      <img src="highlight img.avif" alt="">
+    </div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
